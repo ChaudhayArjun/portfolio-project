@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -92,12 +92,16 @@ hr {
 
 .list-non-bullet {
     list-style: none;
-    padding: 0%;
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.list-item-margin {
+    margin-top: 1rem;
+    margin-right: 2rem;
 }
 
 /* nav */
@@ -143,7 +147,7 @@ hr {
 
 .section {
     padding: 1rem;
-    /* margin: 2rem; */
+    margin: 2rem;
 }
 
 .section-white {
